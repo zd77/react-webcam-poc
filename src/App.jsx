@@ -15,7 +15,8 @@ function App() {
       />
       <div>react-camera-pro</div>
       <Camera 
-        aspectRatio={4/3}
+        aspectRatio={16/9}
+        facingMode='user'
       />
     </Fragment>
   )
