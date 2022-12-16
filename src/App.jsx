@@ -8,6 +8,8 @@ function App() {
   return (
     <Webcam 
       audio={ false }
+      width={350}
+      height={350}
     />
   )
 }
